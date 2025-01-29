@@ -13,7 +13,7 @@ include("header.html");
 echo "<IMG SRC=\"$language/images/buttons_01.jpg\" ALT=\"Gallery\" BORDER=\"0\"></A>\n";
 ?>
 			<IMG SRC="images/buttons_02.jpg" ALT="*" BORDER="0">
-			<A HREF="mailto:myns@skynet.be?Subject=[WEBSITE]%20Request%20for%20more%20information">
+			<A HREF="contact.php">
 <?php
 echo "<IMG SRC=\"$language/images/buttons_03.jpg\" ALT=\"Contact\" BORDER=\"0\"></A>\n";
 ?>

@@ -11,14 +11,8 @@ include("gallery_menu.html");
 	<TR>
 		<TD>
 			<IMG SRC="images/spacer.jpg" WIDTH=754 HEIGHT=30 ALT=""><BR>
-			<table id="Table_01" width="754" height="400" border="0" cellpadding="0" cellspacing="0">
-				<tr>
-					<td>
-						<a href="klein7_det.php"><img src="images/klein1_01.gif" width="413" height="400" alt="" border="0"></a></td>
-					<td>
-						<a href="klein11_det.php"><img src="images/klein1_02.gif" width="341" height="400" alt="" border="0"></a></td>
-				</tr>
-			</table>
+			<A HREF="klein7_det.php">
+			<IMG SRC="images/klein1.jpg" WIDTH=754 HEIGHT=400 ALT="" BORDER="0"></A><BR>
 			<IMG SRC="images/spacer.jpg" WIDTH=754 HEIGHT=30 ALT=""><BR>
 			<IMG SRC="images/bottom.jpg" WIDTH=754 HEIGHT=35 ALT="">
 	</TR>
