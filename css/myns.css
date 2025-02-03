@@ -1,0 +1,19 @@
+body,th,td {
+    font-family:geneva,helvetica,arial,"lucida sans",sans-serif;
+    color:#003300;
+    background-color:#003300;
+}
+
+a {
+    color:#000000;
+    text-decoration:none;
+    font-family:helvetica,arial,sans-serif;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+td {
+    background-color: #cccc99;
+}

@@ -1,0 +1,117 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Jo Myns</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" type="text/css" href="css/myns.css">
+	<script type="text/javascript" src="js/myns.js"></script>
+	<script>
+		window.addEventListener('load', () => {
+			createGalleryHeader();
+			if (language === "fr") {
+				document.getElementById("bio").innerHTML = `
+					<P>
+					Jo Myns (pseudonyme pour Johan Van der Mynsbrugge) éprouve une vraie passion pour le corps humain dans tous ses aspects. 
+					Jo est principalement un artiste autodidacte qui a amélioré ses qualifications au cours des années. Au commencement, et pendant dix ans, 
+					il forge son expérience en façonnant l'argile jusqu'à trouver la bonne expression de sa source d´inspiration : le corps humain.
+					</p>
+					<p>
+					Sa volonté de maîtriser la connaissance des matériaux l'amène à fréquenter pendant 8 années l'Académie des Beaux-Arts de Hamme (B).
+					</p>
+					<p>
+					Les encouragements enthousiastes de ses maîtres, les connaissances acquises, combinés avec la vraie passion de Jo se sont bientôt exprimés en une importante production. 
+					Il acquiert enfin la chance de réaliser son rêve le plus cher.
+					</p>
+					<p>
+					Nus grandeur nature, instantanés tridimensionnels de corps chargés de la tension émotionnelle du mouvement sont coulés dans le bronze belge.
+					</p>
+					<p>
+					Soyez fascinés, vous aussi, par les corps élégants, masculins et féminins, de l´artiste flamand Jo Myns.
+					</P>`;
+			} else if (language === "nl") {
+				document.getElementById("bio").innerHTML = `
+					<P>
+					Jo Myns ( artiestennaam voor Johan Van der Mynsbrugge ) is gepassioneerd door het menselijk lichaam in al zijn facetten.
+					Hij is grotendeels autodidact en leerde zijn vak met vallen en opstaan. Aanvankelijk zocht hij tien jaar lang naar een
+					manier om zijn bron van inspiratie - het menselijk lichaam - weer te geven in klei.
+					</P>
+					<P>
+					De honger naar materiaalkennis kluistert hem vervolgens acht jaar lang aan de kunstacademie van Hamme (B).
+					</P>
+					<P>
+					Het enthousiasme van zijn leraren, in combinatie met zijn gedrevenheid en de nieuwe verworven kennis, uiten zich 
+					weldra in een belangrijke ontwikkeling. Uiteindelijk krijgt hij de kans een lang gekoesterde droom waar te maken...
+					levensgrote naaktfiguren; driedimensionale momentopnamen van bewegende lichamen vol spanning, in levendig Belgisch brons.
+					</P>
+					<P>
+					Laat u fascineren door de imponerende mannen- en sierlijke vrouwenfiguren van de Vlaamse beeldende kunstenaar Jo Myns.
+					</P>`;
+			} else if (language === "de") {
+				document.getElementById("bio").innerHTML = `
+					<P>
+					Jo Myns (Pseudonym f&#252;r Johan Van der Mynsbrugge) zeigt zutreffende Begeisterung f&#252;r den menschlichen K&#246;rper in allen
+					seinen Aspekten. Jo ist haupts&#228;chlich ein autodidaktischer K&#252;nstler, der sein Wissen mitteilte, w&#228;hrend die Jahre vorbei
+					zuerst in experimentierten f&#252;hrten, damit ungef&#228;hr 10 Jahre eine Weise finden, seine Quelle der Inspiration - den
+					menschlichen K&#246;rper - im Lehm auszudr&#252;cken.
+					</P>
+					<P>
+					Seine Begierde, zum des Wissens der Materialien zu erarbeiten legt ihn f&#252;r acht Jahre an der Akademie der feinen K&#252;nste in Hamme (B) fest.
+					</P>
+					<P>
+					Die Begeisterung seiner Mentors, im Verbindung mit Jo&acute;s zutreffender Neigung fest und erworbenes Wissen, wird bald in
+					einer bemerkenswerten Entwicklung ausgedr&#252;ckt. Schlie&szlig;lich erh&#228;lt er die Wahrscheinlichkeit, ein langen gesch&#228;tzten Traum
+					zu verwirklichen: lebensgro&szlig;e Nakten zu verwirklichen, dreidimensionale Momentaufnahmen von beweglichen K&#246;rpern geladen mit
+					Spannung, in der lebhaften belgischen Bronze.
+					</P>
+					<P>
+					Ein kann nicht vermeiden aber von den eindrucksvollen Mann- und eleganten weiblichenk&#246;rpern des fl&#228;mischen K&uuml;nstlers Jo Myns fasziniert werden.
+					</P>`;
+			} else {
+				document.getElementById("bio").innerHTML = `
+					<P>
+					Jo Myns (pseudonym for Johan Van der Mynsbrugge) shows true passion for the human body in all its aspects. Jo is
+					mainly a self-taught artist, who acquainted his knowledge as the years passed by. Initially he experimented for about
+					10 years to find a way to express his source of inspiration - the human body - in clay.
+					</P>
+					<P>
+					His eagerness to master the knowledge of materials commits him for eight years to the Academy of Fine Arts in Hamme (B)
+					</P>
+					<P>
+					The enthusiasm of his mentors, in combination with Jo&acute;s true passion and acquired knowledge, are soon expressed in a
+					remarkable development. Finally he gets the chance to realize a long cherished dream... life-sized nudes, three-dimensional 
+					"snapshots" of moving bodies, loaded with tension, in lively Belgian bronze.
+					</P>
+					<P>
+					One cannot avoid but to be fascinated by the impressive male- and elegant female bodies of the Flemish artist Jo Myns.
+					</P>`;
+			}
+		});
+	</script>
+</head>
+<body>
+	<center>
+		<TABLE WIDTH=754 BORDER=0 CELLPADDING=0 CELLSPACING=0 BGCOLOR="#CCCC99">
+			<TR>
+				<TD COLSPAN=3>
+					<CENTER>
+						<IMG SRC="images/spacer.jpg" WIDTH=754 HEIGHT=30 ALT=""><BR>
+					</CENTER>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH="20"></TD>
+				<TD WIDTH="*" id='bio'></TD>
+				<TD WIDTH="20"></TD>
+			</TR>
+			<TR>	
+				<TD COLSPAN=3>
+					<CENTER>
+						<IMG SRC="images/spacer.jpg" WIDTH=754 HEIGHT=30 ALT=""><BR>
+						<IMG SRC="images/bottom.jpg" WIDTH=754 HEIGHT=35 ALT="">
+					</CENTER>
+				</TD>
+			</TR>
+		</TABLE>
+	</center>
+</body>
+</html>
