@@ -117,4 +117,3 @@ var language = getJomynsLangCookie();
 if (language === null) {
 	language = "en";
 }
-
