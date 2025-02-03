@@ -1,9 +1,12 @@
 <?php
+exit();
+
 // Set generic mail properties
 $email = "myns@skynet.be";
+// $email = "jacques.deschepper@artwork-systems.com";
 $continue = "index2.php";
 $subject = "[Website] Vraag om meer informatie";
-$headers = "From: " . $_POST["formemail"] . "\n" . "Return-Path: " .  $_POST["formemail"] . "\n" . "Reply-To: " .  $_POST["formemail"] . "\n";
+$headers = "From: jomyns@homejack.net\n" . "Return-Path: jomyns@homejack.net\n" . "Reply-To: " .  $_POST["formemail"] . "\n";
 
 // Construct email body
 $message = "Ik wens meer informatie over:\n";
@@ -15,16 +18,21 @@ if ($_POST["formexpo"] == "on")
 	$message .= "- Geplande Exposities\n";
 $message .= "\nExtra commentaar :\n\n" . $_POST["formcomm"] . "\n\nMijn gekozen taal is ";
 if ($_COOKIE["jomyns_lang"] == "en")
-	$message .= "engels.\n";
+	$message .= "engels.\n\n";
 if ($_COOKIE["jomyns_lang"] == "nl")
-	$message .= "nederlands.\n";
+	$message .= "nederlands.\n\n";
 if ($_COOKIE["jomyns_lang"] == "de")
-	$message .= "duits.\n";
+	$message .= "duits.\n\n";
 if ($_COOKIE["jomyns_lang"] == "fr")
-	$message .= "frans.\n";
+	$message .= "frans.\n\n";
+$message .= "E-mail adres: " . $_POST["formemail"] ."\n";
 
 // Send the message
-mail($email,$subject,$message,$headers);
+if (!mail($email,$subject,$message,$headers))
+{
+	echo "Delivery Failed!";
+	die ();
+}
 
 // Display resulting page
 include("header.html");

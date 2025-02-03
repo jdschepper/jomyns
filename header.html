@@ -2,7 +2,7 @@
 // Expiration date of the cookie is set to 1 week
 if (!isset($language))
 {
-	if (!isset($_COOKIE["jomyns_lang"])) 
+	if (!isset($_COOKIE["jomyns_lang"]))
 		$language = "en";
 	else
 		$language = $_COOKIE["jomyns_lang"];
@@ -27,6 +27,21 @@ a:hover {text-decoration:underline;color:#000000;font-family:helvetica,arial,san
 <BODY BGCOLOR="#003300">
 <CENTER>
 <TABLE WIDTH=754 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<!--	<TR>
+		<TD COLSPAN=3>
+			<img src="images/banner_open.gif" border="0">
+		</td>
+	</tr> -->
+	<TR>
+		<TD COLSPAN=3>
+			<img src="images/top.jpg" border="0">
+		</td>
+	</tr>
+	<TR>
+		<TD COLSPAN=3>
+			<a href="virtueel.html"><img src="images/virtueel.gif" border="0"></a>
+		</td>
+	</tr>
 	<TR>
 		<TD COLSPAN=3>
    <script language="JavaScript">
@@ -48,7 +63,7 @@ a:hover {text-decoration:underline;color:#000000;font-family:helvetica,arial,san
 echo "<IMG SRC=\"$language/images/website_03.gif\" WIDTH=\"103\" HEIGHT=\"22\" ALT=\"Gallery\" BORDER=\"0\"></A></TD>\n";
 ?>
 		<TD>
-			<A HREF="contact.php">
+			<A HREF="mailto:myns@skynet.be?Subject=[WEBSITE]%20Vraag%20voor%20meer%20informatie">
 <?php
 echo "<IMG SRC=\"$language/images/website_04.gif\" WIDTH=\"95\" HEIGHT=\"22\" ALT=\"Contact\" BORDER=\"0\"></A></TD>\n";
 ?>

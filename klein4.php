@@ -14,12 +14,13 @@ include("gallery_menu.html");
 	</TR>
 	<TR>
 		<TD>
-			<IMG SRC="images/klein4_1.jpg" WIDTH=256 HEIGHT=400 ALT=""></TD>
+			<A HREF="klein9_det.php">
+			<IMG SRC="images/klein4_01.jpg" WIDTH=264 HEIGHT=400 BORDER=0 ALT=""></A></TD>
 		<TD>
 			<A HREF="klein3_det.php">
-			<IMG SRC="images/klein4_2.jpg" WIDTH=234 HEIGHT=400 ALT="" BORDER="0"></A></TD>
+			<IMG SRC="images/klein4_02.jpg" WIDTH=223 HEIGHT=400 BORDER=0 ALT=""></A></TD>
 		<TD>
-			<IMG SRC="images/klein4_3.jpg" WIDTH=264 HEIGHT=400 ALT=""></TD>
+			<IMG SRC="images/klein4_03.jpg" WIDTH=267 HEIGHT=400 BORDER=0 ALT=""></TD>
 	</TR>
 	<TR>
 		<TD COLSPAN=3>
