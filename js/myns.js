@@ -44,7 +44,7 @@ function createHeader() {
 					<A HREF="gallery.html">
 						<IMG SRC=\"images/website_03_`+language+`.gif\" WIDTH=\"103\" HEIGHT=\"22\" ALT=\"Gallery\" BORDER=\"0\"></A></TD>
 				<TD>
-					<A HREF="mailto:myns@skynet.be?Subject=[WEBSITE]%20Vraag%20voor%20meer%20informatie">
+					<A HREF="mailto:myns@skynet.be?Subject=[WEBSITE]%20Verzoek%20voor%20meer%20informatie">
 						<IMG SRC=\"images/website_04_`+language+`.gif\" WIDTH=\"95\" HEIGHT=\"22\" ALT=\"Contact\" BORDER=\"0\"></A></TD>
 			</TR>
 		</TABLE>`;
